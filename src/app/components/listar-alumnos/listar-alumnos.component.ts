@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Alumno } from './../../clases/Alumno';
+import { Alumno } from '../../clases/Alumno';
 
 
 @Component({
