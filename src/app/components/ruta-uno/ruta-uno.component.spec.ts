@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CargarAlumnoComponent } from './cargar-alumno.component';
+import { RutaUnoComponent } from './ruta-uno.component';
 
-describe('CargarAlumnoComponent', () => {
-  let component: CargarAlumnoComponent;
-  let fixture: ComponentFixture<CargarAlumnoComponent>;
+describe('RutaUnoComponent', () => {
+  let component: RutaUnoComponent;
+  let fixture: ComponentFixture<RutaUnoComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CargarAlumnoComponent ]
+      declarations: [ RutaUnoComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CargarAlumnoComponent);
+    fixture = TestBed.createComponent(RutaUnoComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
